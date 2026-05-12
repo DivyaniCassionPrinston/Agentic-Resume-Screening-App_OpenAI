@@ -2,6 +2,10 @@
 
 A lightweight resume screening app with a FastAPI backend and a Streamlit UI. Upload a PDF resume and get a structured evaluation against a fixed job description.
 
+<img width="2874" height="1313" alt="Screenshot 2026-05-12 at 20 54 34" src="https://github.com/user-attachments/assets/c8a7ce37-ebee-4f02-9941-a1053e82bed0" />
+
+
+
 ## Features
 
 - PDF resume upload and parsing
@@ -63,12 +67,6 @@ From the project root:
 
 ```bash
 uvicorn app.main:app --reload
-```
-
-API runs at:
-
-```
-http://127.0.0.1:8000
 ```
 
 ## Run the UI
